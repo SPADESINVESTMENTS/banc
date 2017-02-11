@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: spadesinvestments.com
+  name: banc
+  host: banc
+  disk_quota: 1024M
+  services:
+  - Twilio-sj
